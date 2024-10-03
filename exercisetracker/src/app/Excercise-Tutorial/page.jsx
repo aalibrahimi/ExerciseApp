@@ -1,4 +1,5 @@
-import ExerciseTutorial from '@/components/exerciseTutorialxerciseTutorial';
+import ExerciseTutorial from '@/components/exerciseTutorial'; // Ensure there's no typo in the filename or path
+
 
 export default function ExerciseTutorialPage() {
   return (

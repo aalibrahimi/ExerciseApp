@@ -1,4 +1,6 @@
-import Dashboard from '@/components/dashboard';
+import Dashboard from '@/components/Dashboard'; // Ensure correct case and path
+ // Check if 'dashboard.jsx' exists or should be 'Dashboard.jsx'
+
 
 export default function DashboardPage() {
   return (

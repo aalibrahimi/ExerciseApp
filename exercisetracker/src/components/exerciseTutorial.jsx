@@ -13,9 +13,16 @@ const ExerciseTutorial = () => (
         <h2 className="text-xl font-semibold mb-2">{exercise.name}</h2>
         <p className="mb-4">{exercise.description}</p>
         <div className="aspect-w-16 aspect-h-9">
-          <img src="/api/placeholder/640/360" alt={`${exercise.name} tutorial`} className="rounded-lg" />
+          {/* Placeholder image, update or uncomment if needed */}
+          {/* <img
+            src="https://via.placeholder.com/640x360"
+            alt={`${exercise.name} tutorial`}
+            className="rounded-lg"
+          /> */}
         </div>
-        <a href={exercise.videoUrl} className="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Watch Tutorial</a>
+        <a href={exercise.videoUrl} className="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+          Watch Tutorial
+        </a>
       </div>
     ))}
   </div>

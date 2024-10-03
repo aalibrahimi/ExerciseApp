@@ -10,6 +10,7 @@ export default function RootLayout({ children }) {
           <Sidebar />
           <main className="flex-1 p-4">
             {children}
+            <p>hello</p>
           </main>
         </div>
       </body>
