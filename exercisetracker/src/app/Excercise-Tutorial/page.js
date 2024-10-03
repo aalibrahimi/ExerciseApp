@@ -1,4 +1,4 @@
-import ExerciseTutorial from '@/components/ExerciseTutorial';
+import ExerciseTutorial from '@/components/exerciseTutorialxerciseTutorial';
 
 export default function ExerciseTutorialPage() {
   return (

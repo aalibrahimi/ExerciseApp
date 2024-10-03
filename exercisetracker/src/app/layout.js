@@ -1,6 +1,6 @@
-// import './globals.css';
-import Sidebar from '../components/Sidebar';
-
+// src/app/layout.js
+import '@/styles/globals.css';
+import Sidebar from '@/components/Sidebar';
 
 export default function RootLayout({ children }) {
   return (
